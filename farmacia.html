@@ -27,7 +27,9 @@
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Carrito de Compras</button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Carrito de Compras</a></li>
+                        <li><a class="dropdown-item" href="#">Monto: $0</a></li>
                         <li><a class="dropdown-item" href="#">Compra Aderida</a></li>
+                        <li><a class="dropdown-item" href="#">Monto: $0</a></li>
 
                     </ul>
                 </div>
@@ -52,7 +54,7 @@
 
                         <div class="flex space-x-3 mb-4 text-sm font-medium">
                             <div class="flex-auto flex space-x-3">
-                                <button class="w-1/2 flex items-center justify-center rounded-md bg-black text-white" v-on:click="agregarCompra()">Comprar Ahora</button>
+                                <button class="w-1/2 flex items-center justify-center rounded-md bg-black text-white" v-on:click="agregarCompra(producto)">Comprar Ahora</button>
                                 <button class="w-1/2 flex items-center justify-center rounded-md border border-gray-300" type="button">Añadir al Carrito</button>
                             </div>
 
