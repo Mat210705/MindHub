@@ -1,0 +1,104 @@
+body{
+  background-image: url(../img/190.jpg)}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    margin-bottom: 3rem;
+}
+
+header img {
+    width: 15vh;
+    margin: 0%;
+    padding: 1vh
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  font-size: 3vh;
+}
+header a:hover{
+  color: brown;
+  text-decoration:underline;
+
+}
+.carrito {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: orange;
+  margin-bottom: 3rem;
+}
+
+.carrito img {
+  width: 15vh;
+  margin: 0%;
+  padding: 1vh
+}
+
+.carrito a{
+text-decoration: none;
+color: white;
+font-size: 3vh;
+}
+.carrito a:hover{
+color: brown;
+text-decoration:underline;
+
+}
+.nav-item{
+  font-size: 3vh;
+  color : white;
+}
+
+.carousel-inner{
+  padding: 2vw;
+}
+
+ /* .container1{
+  display: flex;
+  justify-content: space-between;
+} */
+.texto{
+  background-color: white;
+  margin: 2vw;
+  padding: 2vw;
+  height: 70vh
+}
+.mapa{
+  margin: 2vh;
+}
+.botonCarrito{
+  background-color:white;
+  width: 12.4vw;
+  margin: 4vw;
+}
+#imagenCarrito{
+  display:flex;
+  justify-content:center;
+  height: 50vh;
+  margin-top: 2vh;
+  padding: 0;
+}
+
+form{
+  margin: 10vw;
+  background-color: white;
+  padding: 2vw;
+  border-radius: 2rem;
+}
+
+footer{
+
+  background-color: orange;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+footer img{
+  height: 5vh;
+}
